@@ -24,4 +24,4 @@ plt.plot(dev_x, dev_y)
 
 plt.legend(["Stress Function"])
 
-plt.show()
+plt.show(block=True)
