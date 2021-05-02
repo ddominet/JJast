@@ -9,7 +9,7 @@ def stress_function(num):
     return sum([i*j*k for i in range(num) for j in range(i) for k in range(j)])
 
 if __name__ == "__main__":
-    ray.init()
+    ray.init(address = "auto")
 
     inp = int(input("Enter a number: "))
     czas = []
